@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 8,
-    "passes": 3,
+    "passes": 8,
     "pending": 0,
-    "failures": 5,
-    "start": "2023-03-13T10:04:11.470Z",
-    "end": "2023-03-13T10:04:13.418Z",
-    "duration": 1948
+    "failures": 0,
+    "start": "2023-03-13T11:20:18.698Z",
+    "end": "2023-03-13T11:20:19.121Z",
+    "duration": 423
   },
   "tests": [
     {
@@ -34,28 +34,28 @@
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 5,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -68,7 +68,8 @@
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
@@ -93,30 +94,28 @@
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
-    }
-  ],
-  "passes": [
+    },
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 5,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
